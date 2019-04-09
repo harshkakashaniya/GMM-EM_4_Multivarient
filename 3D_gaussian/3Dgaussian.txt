@@ -51,12 +51,3 @@
  [[ -48.74952313   52.70243927]
   [   3.76102091  811.14484296]
   [  12.15513611 1231.3601203 ]]] sigma
-
-
-
-
-To do:
-1. plots of 1D plots gaussian superimposed on histogram.(Remaining for yellow)
-2. 3D plots with all 3 histogram and plotted means of our Algoithm.
-3.yellow Bouy detection(1D)
-4.All bouy detection(3D)

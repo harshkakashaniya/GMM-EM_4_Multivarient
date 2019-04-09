@@ -1,0 +1,12 @@
+def onclick(event):
+    """Deal with click events"""
+    button = ['left','middle','right']
+    toolbar = plt.get_current_fig_manager().toolbar
+    if toolbar.mode!='':
+        print("You clicked on something, but toolbar is in mode {:s}.".format(toolbar.mode))
+    else:
+        print("You {0}-clicked coords ({1},{2}) (pix ({3},{4}))".format(button[event.button+1],\
+                                                                             event.xdata,\
+                                                                             event.ydata,\
+                                                                             event.x,\
+                                                                             event.y))
